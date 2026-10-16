@@ -131,3 +131,34 @@ if (proofImages.length) {
   modal.querySelector(".proof-close").addEventListener("click", () => modal.close());
   modal.addEventListener("click", event => { if (event.target === modal) modal.close(); });
 }
+
+/* CONTADOR CICLICO DE 10 MINUTOS */
+
+const offerTimer = document.getElementById("offer-countdown");
+
+if (offerTimer) {
+  const duration = 10 * 60 * 1000;
+  const storageKey = "shopee_offer_timer_start";
+
+  let start = Number(localStorage.getItem(storageKey));
+
+  if (!start || start > Date.now()) {
+    start = Date.now();
+    localStorage.setItem(storageKey, String(start));
+  }
+
+  function updateOfferTimer() {
+    const elapsed = (Date.now() - start) % duration;
+    const remaining = Math.ceil((duration - elapsed) / 1000);
+
+    const minutes = Math.floor(remaining / 60);
+    const seconds = remaining % 60;
+
+    offerTimer.textContent =
+      String(minutes).padStart(2, "0") + ":" +
+      String(seconds).padStart(2, "0");
+  }
+
+  updateOfferTimer();
+  setInterval(updateOfferTimer, 1000);
+}

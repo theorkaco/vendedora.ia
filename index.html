@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#09090b">
+  <meta name="description" content="Assistente Shopee Pro: ferramenta para ajudar iniciantes e vendedores da Shopee a pesquisar produtos, criar anúncios e organizar vendas.">
+  <title>Assistente Shopee Pro</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <svg width="0" height="0" style="position:absolute">
+    <symbol id="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></symbol>
+  </svg>
+
+  <div class="topstrip">Venda na Shopee com facilidade, clareza, rapidez e organização.</div>
+
+  <header class="header" id="inicio">
+    <div class="container nav">
+      <a href="#inicio" class="brand"><span class="brand-mark">S+</span> <span>ASSISTENTE <strong>SHOPEE PRO</strong></span></a>
+      <div class="navlinks">
+        <a href="#demonstracao">Demonstração</a>
+        <a href="#provas">Provas</a>
+        <a href="#faq">FAQ</a>
+        <a href="#oferta" class="nav-cta">Quero acessar</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio-demo">
+      <div class="container">
+        <div class="hero-intro">
+          <div class="eyebrow hero-eyebrow"><span class="eyebrow-dot"></span> SUA IA PARA VENDER NA SHOPEE</div>
+          <h1>Quer vender na Shopee? <br><span>Agora você tem uma IA</span> <br>para te mostrar o caminho.</h1>
+          <p>Comece do zero ou melhore sua loja com ajuda para pesquisar produtos, montar anúncios e calcular margens. <strong>Você pergunta. A IA ajuda a executar.</strong></p>
+          <div class="hero-actions">
+            <a href="#oferta" class="btn hero-primary">QUERO MINHA IA POR R$ 29,90 <svg><use href="#arrow"/></svg></a>
+            <a href="#demonstracao" class="hero-secondary">Veja como funciona <span aria-hidden="true">↘</span></a>
+          </div>
+          <p class="subnote hero-subnote">Acesso no ChatGPT · Sem precisar aprender comandos complexos</p>
+        </div>
+
+        <div class="product-visual" aria-label="Prévia ilustrativa da interface do Assistente Shopee Pro">
+          <div class="mock-topbar">
+            <div class="mock-traffic"><i></i><i></i><i></i></div>
+            <div class="mock-location">assistente-shopee-pro <span>/ demonstração</span></div>
+            <span class="mock-version">PRÉVIA ILUSTRATIVA</span>
+          </div>
+          <div class="mock-layout">
+            <aside class="mock-side">
+              <div class="mock-logo"><span class="mock-logo-symbol">S+</span><span>SHOPEE<span class="text-shopee">PRO</span></span></div>
+              <div class="mock-sidebutton"><span aria-hidden="true">＋</span> Nova conversa</div>
+              <div class="mock-side-label">ASSISTENTE</div>
+              <div class="mock-sideitem selected"><span class="mock-side-icon">◈</span> Conversar</div>
+              <div class="mock-sideitem"><span class="mock-side-icon">⌕</span> Pesquisar produtos</div>
+              <div class="mock-sideitem"><span class="mock-side-icon">▤</span> Criar anúncios</div>
+              <div class="mock-sideitem"><span class="mock-side-icon">▥</span> Calcular margem</div>
+              <div class="mock-side-foot"><span class="mock-foot-avatar">✦</span><span>Assistente especializado<small>Pronto para ajudar</small></span></div>
+            </aside>
+            <div class="mock-main">
+              <div class="mock-content">
+                <div class="ai-sphere-wrap" aria-hidden="true">
+                  <div class="sphere-aura"></div>
+                  <div class="sphere-outer"></div>
+                  <div class="sphere-core"></div>
+                  <div class="sphere-streak sphere-streak-one"></div>
+                  <div class="sphere-streak sphere-streak-two"></div>
+                </div>
+                <p class="mock-overline">SEU ASSISTENTE DE VENDAS NA SHOPEE</p>
+                <h3>Como posso te ajudar hoje?</h3>
+                <div class="mock-shortcuts" aria-label="Trocar exemplo de conversa">
+                  <button class="prompt-option is-active" type="button" data-demo="produto"><span class="shortcut-symbol">◎</span> Encontrar produtos</button>
+                  <button class="prompt-option" type="button" data-demo="anuncio"><span class="shortcut-symbol">▤</span> Criar anúncios</button>
+                  <button class="prompt-option" type="button" data-demo="margem"><span class="shortcut-symbol">▥</span> Calcular lucro</button>
+                </div>
+                <div class="mock-conversation" aria-live="polite">
+                  <div class="mock-question"><span class="bubble-label">VOCÊ</span><p id="demo-question">Tenho R$ 400 para começar na Shopee. O que posso vender?</p></div>
+                  <div class="mock-response"><div class="mock-answer-avatar">✦</div><div class="mock-response-copy"><span class="bubble-label">ASSISTENTE SHOPEE PRO</span><p id="demo-answer">Vamos selecionar dois produtos para pesquisar, comparar preços e simular a margem antes de comprar estoque.</p></div></div>
+                </div>
+                <div class="mock-compose"><span class="compose-add">＋</span><span>Pergunte o que você precisa fazer...</span><span class="compose-send" aria-hidden="true">↑</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="visual-disclaimer">Demonstração ilustrativa. O produto funciona em uma conversa no ChatGPT e não publica ou vende automaticamente.</p>
+      </div>
+    </section>
+
+    <section class="value-rail">
+      <div class="container value-grid">
+        <div class="metric"><div class="metric-icon">◎</div><div><b>Mais clareza</b><span>Entenda o próximo passo</span></div></div>
+        <div class="metric"><div class="metric-icon">◌</div><div><b>Mais rapidez</b><span>Reduza tempo de pesquisa</span></div></div>
+        <div class="metric"><div class="metric-icon">▣</div><div><b>Mais organização</b><span>Use a IA como apoio diário</span></div></div>
+      </div>
+    </section>
+
+    <section class="section pain">
+      <div class="container">
+        <div class="section-header center">
+          <span class="eyebrow dark">A oportunidade existe. O improviso atrapalha.</span>
+          <h2>Você não precisa descobrir tudo sozinho.</h2>
+          <p>Uma boa ideia de produto não basta. Você precisa escolher, anunciar, calcular custos e tomar decisões. O Assistente Shopee Pro encurta esse caminho.</p>
+        </div>
+        <div class="pain-grid">
+          <article class="painbox">
+            <h3>Sem direção</h3>
+            <ul>
+              <li><span>×</span> Não sabe o que vender</li>
+              <li><span>×</span> Fica pulando de dica em dica</li>
+              <li><span>×</span> Anuncia sem critério</li>
+              <li><span>×</span> Não sabe se a conta fecha</li>
+            </ul>
+          </article>
+          <article class="painbox good">
+            <h3>Com assistência</h3>
+            <ul>
+              <li><span>✓</span> Recebe caminhos práticos</li>
+              <li><span>✓</span> Organiza a análise de produtos</li>
+              <li><span>✓</span> Cria textos e anúncios com mais facilidade</li>
+              <li><span>✓</span> Simula margem antes de comprar</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section features">
+      <div class="container">
+        <div class="section-header center">
+          <span class="eyebrow">O que ela pode fazer</span>
+          <h2>Uma conversa. <span>Várias utilidades.</span></h2>
+        </div>
+        <div class="feature-grid">
+          <article class="feature"><div class="index">01</div><h3>Encontrar ideias de produtos</h3><p>Sugere caminhos iniciais com foco em orçamento, simplicidade e risco menor.</p></article>
+          <article class="feature"><div class="index">02</div><h3>Comparar oportunidades</h3><p>Ajuda a observar concorrência, preços e diferenciação antes de tomar decisão.</p></article>
+          <article class="feature"><div class="index">03</div><h3>Criar anúncios</h3><p>Gera títulos, descrições, bullets e estrutura de anúncio com mais agilidade.</p></article>
+          <article class="feature"><div class="index">04</div><h3>Simular preços e margem</h3><p>Ajuda você a pensar custos e precificação antes de investir sem critério.</p></article>
+          <article class="feature"><div class="index">05</div><h3>Organizar a operação</h3><p>Pode orientar próximos passos para quem está começando ou quer melhorar.</p></article>
+          <article class="feature"><div class="index">06</div><h3>Responder mais rápido</h3><p>Cria respostas e materiais úteis para atendimento e rotina comercial.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section demonstration" id="demonstracao">
+      <div class="container showcase">
+        <div>
+          <span class="eyebrow">Demonstração</span>
+          <h2>Veja a IA em ação antes de comprar.</h2>
+          <p>Substitua este espaço pelo print ou gravação que melhor mostra a utilidade do assistente na prática.</p>
+          <div class="showcase-bullets">
+            <span>Sugestões alinhadas ao orçamento</span>
+            <span>Próximos passos mais claros</span>
+            <span>Análise inicial de produto e margem</span>
+          </div>
+          <a href="#oferta" class="btn">QUERO ACESSAR AGORA <svg><use href="#arrow"/></svg></a>
+        </div>
+        <div class="slot hero-slot video-slot">
+          <video id="demoVideo" playsinline preload="metadata" aria-label="Demonstração do Assistente Shopee Pro">
+            <source src="assets/demonstracao-ia.mp4" type="video/mp4">
+            Seu navegador não suporta vídeos em MP4.
+          </video>
+          <button id="demoToggle" class="video-toggle" type="button" aria-label="Reproduzir vídeo">▶</button>
+          <div id="videoError" class="video-error" role="status" hidden></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section proof-section" id="provas">
+      <div class="container">
+        <div class="section-header center">
+          <span class="eyebrow">Provas reais</span>
+          <h2>Coloque aqui as imagens que fortalecem a oferta.</h2>
+          <p>Use apenas provas verdadeiras: prints da IA funcionando, feedbacks ou resultados com contexto.</p>
+        </div>
+        <div class="proof-items">
+          <article class="proof-card"><div class="slot"><img data-asset src="assets/prova-01.webp" alt="Prova 01"><div class="placeholder"><span class="slot-label">PROVA REAL 01</span><strong>Imagem de prova</strong><em>assets/prova-01.webp</em></div></div><p>Prova 01 · legenda personalizável</p></article>
+          <article class="proof-card"><div class="slot"><img data-asset src="assets/prova-02.webp" alt="Prova 02"><div class="placeholder"><span class="slot-label">PROVA REAL 02</span><strong>Imagem de prova</strong><em>assets/prova-02.webp</em></div></div><p>Prova 02 · legenda personalizável</p></article>
+          <article class="proof-card"><div class="slot"><img data-asset src="assets/prova-03.webp" alt="Prova 03"><div class="placeholder"><span class="slot-label">PROVA REAL 03</span><strong>Imagem de prova</strong><em>assets/prova-03.webp</em></div></div><p>Prova 03 · legenda personalizável</p></article>
+          <article class="proof-card"><div class="slot"><img data-asset src="assets/prova-04.webp" alt="Prova 04"><div class="placeholder"><span class="slot-label">PROVA REAL 04</span><strong>Imagem de prova</strong><em>assets/prova-04.webp</em></div></div><p>Prova 04 · legenda personalizável</p></article>
+        </div>
+        <div class="quote"><span class="quote-label">✦</span><p><strong>A maior diferença não é a IA vender sozinha.</strong> É você ter ajuda para pensar melhor, agir mais rápido e errar menos.</p></div>
+      </div>
+    </section>
+
+    <section class="section offer-section" id="oferta">
+      <div class="container offer-layout">
+        <div class="offer-copy">
+          <span class="eyebrow">Oferta de teste</span>
+          <h2>Comece a usar hoje por <span>R$ 29,90</span>.</h2>
+          <p>Se você quer tirar a ideia do papel e usar uma ferramenta simples para pensar sua operação na Shopee, essa é a proposta.</p>
+          <div class="included">
+            <div><b>✓</b> Para quem nunca vendeu nada</div>
+            <div><b>✓</b> Para quem já tem loja e quer melhorar</div>
+            <div><b>✓</b> Pesquisa, anúncios, margens e atendimento</div>
+            <div><b>✓</b> Link de acesso entregue após a compra</div>
+          </div>
+        </div>
+        <div class="pricing">
+          <span class="pill">PAGAMENTO ÚNICO</span>
+          <h3>Assistente Shopee Pro</h3>
+          <p>Acesso à configuração personalizada</p>
+          <div class="amount"><sup>R$</sup>29<small>,90</small></div>
+          <ul>
+            <li>Acesso ao assistente via ChatGPT</li>
+            <li>Ferramenta prática para consulta e apoio</li>
+            <li>Serve para iniciantes e vendedores ativos</li>
+            <li>Uso sujeito aos limites da plataforma</li>
+          </ul>
+          <a href="#" class="btn wide" data-checkout>QUERO GARANTIR MEU ACESSO <svg><use href="#arrow"/></svg></a>
+          <p class="subnote">Pagamento via Kiwify • Conta ChatGPT necessária • Plano gratuito sujeito a limites</p>
+          <div class="disclosure">Produto independente da Shopee e da OpenAI. Não publica produtos nem gera vendas automaticamente.</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section faq-section" id="faq">
+      <div class="container">
+        <div class="section-header center"><span class="eyebrow">Perguntas frequentes</span><h2>Dúvidas rápidas antes da compra.</h2></div>
+        <div class="faq-list">
+          <details><summary>Sou iniciante. Serve para mim?</summary><p>Sim. A proposta é ajudar com ideias de produtos, anúncios, organização e próximos passos.</p></details>
+          <details><summary>Ela vende sozinha?</summary><p>Não. É uma ferramenta de apoio e orientação dentro do ChatGPT.</p></details>
+          <details><summary>O acesso é vitalício?</summary><p>Sim. Você paga uma vez e tem acesso pra sempre a IA vendedora.</p></details>
+          <details><summary>Preciso assinar o ChatGPT?</summary><p>Você precisa de uma conta no ChatGPT. O uso depende da disponibilidade e dos limites do plano utilizado.</p></details>
+          <details><summary>Como recebo o acesso?</summary><p>Por link entregue após a compra na sua plataforma de checkout.</p></details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <a href="#inicio" class="brand"><span class="brand-mark">S+</span> <span>ASSISTENTE <strong>SHOPEE PRO</strong></span></a>
+        <p>Assistente independente para pesquisa, criação de materiais e apoio à gestão de vendas na Shopee.</p>
+        <p class="copyright">© <span id="year"></span> Assistente Shopee Pro.</p>
+      </div>
+      <div>
+        <p><strong>Informações:</strong> para dúvidas sobre acesso e compras, consulte as informações disponibilizadas no checkout.</p>
+        <p><a href="#faq">Perguntas frequentes</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <div class="mobile-cta"><a href="#oferta" class="btn wide">QUERO ACESSAR POR R$ 29,90 <svg><use href="#arrow"/></svg></a><small>Pagamento único • via ChatGPT</small></div>
+  <div class="notice" id="notice" role="status" aria-live="polite">Antes de publicar, insira o endereço da Kiwify em <strong>CONFIG.checkoutUrl</strong>.</div>
+
+  <script src="script.js"></script>
+</body>
+</html>

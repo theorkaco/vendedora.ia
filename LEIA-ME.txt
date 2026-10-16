@@ -1,0 +1,22 @@
+CORRECAO DO VIDEO E DOS DEPOIMENTOS
+
+Arquivos incluidos:
+- index.html: fechamento da secao de video corrigido.
+- styles.css: player e lightbox, com CTA inferior oculto sobre o video no celular.
+- script.js: botao Play/Pause, alternancia dos exemplos, checkout e ampliacao das provas.
+
+IMPORTANTE: mantenha sua pasta assets com os arquivos originais. O MP4 nao foi enviado aqui.
+
+assets/demonstracao-ia.mp4
+assets/prova-01.webp
+assets/prova-02.webp
+assets/prova-03.webp
+assets/prova-04.webp
+
+Para substituir somente o JS, copie script.js para a pasta da pagina.
+Se o botao ainda nao funcionar, substitua tambem index.html e styles.css deste pacote.
+Atualize a pagina com Ctrl + F5 para limpar cache.
+
+Edite CONFIG.checkoutUrl em script.js quando o checkout da Kiwify estiver pronto.
+
+Caso o video apresente erro mesmo com o arquivo no lugar, exporte-o em MP4 com codec H.264 e audio AAC.

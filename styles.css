@@ -274,3 +274,38 @@ h1,h2,h3,p{margin:0}h1,h2,h3{letter-spacing:-.045em;line-height:1.08}p{line-heig
 .video-error{position:absolute;z-index:3;bottom:12px;left:12px;right:12px;padding:10px 12px;background:rgba(35,15,12,.96);color:#fff;font-size:.82rem;border:1px solid #ee4d2d;border-radius:10px}
 .video-error[hidden]{display:none!important}
 .mobile-cta.suppress-on-video{transform:translateY(130%)}
+
+/* CONTADOR SUPERIOR */
+.topstrip {
+  background: #EE4D2D;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 11px 15px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: .4px;
+}
+
+#offer-countdown {
+  font-size: 20px;
+  font-weight: 900;
+  color: #FFFFFF;
+  font-variant-numeric: tabular-nums;
+}
+
+@media (max-width: 600px) {
+  .topstrip {
+    gap: 5px;
+    font-size: 10px;
+    padding: 9px;
+  }
+
+  #offer-countdown {
+    font-size: 19px;
+  }
+}

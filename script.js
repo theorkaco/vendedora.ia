@@ -1,5 +1,5 @@
 // Configure somente a URL do checkout quando estiver pronta.
-const CONFIG = { checkoutUrl: "" };
+const CONFIG = { checkoutUrl: "https://pay.kiwify.com.br/vF3MHE8" };
 
 // Botões de compra.
 const note = document.getElementById("notice");
